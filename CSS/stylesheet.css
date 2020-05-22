@@ -292,16 +292,17 @@ ul.sidemenu li a:hover {
     border: none;
     text-decoration: underline;
 }
-a#mendeleyr {
+
+a#mendeley-link {
     color: #A41823;
 }
-a#grammarlyr {
+a#grammarly-link {
     color: #34BA97;
 }
-a#endnoter {
+a#endnote-link {
     color: #E1215C;
 }
-a#overleafer {
+a#overleafe-link {
     color: #44A548;
 }
 
@@ -336,6 +337,7 @@ input[type=submit]:hover, input[type=button]:hover {
     flex-direction: row;
     align-items: center;
     justify-content: left;
+    margin-bottom: .5em;
 }
 
 .tools-logo {
@@ -343,16 +345,25 @@ input[type=submit]:hover, input[type=button]:hover {
     margin-right: .5em;
 }
 
+.rec-tools-logo {
+    width: 15%;
+    margin-right: 1em;
+}
+
 .tools-link {
     width: 85%;
 }
 
 .tools-logo-img {width: 2em;}
+.rec-tools-logo-img {width: 1.5em;}
 
 #unicheck-link {
     color: #2c8ef2;
 }
 
+.recommended-tools-container {
+    display: inline-block
+}
 
 /* --------------FOOTER---------------- */
 #mainfooter {
