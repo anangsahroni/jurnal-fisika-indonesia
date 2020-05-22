@@ -51,8 +51,6 @@ body {font-family: 'Asap',sans-serif!important;}
 
 /* Content*/
 
-/*JURNAL FISIKA INDONESIA */
-
 #breadcrumb {
     padding: 0.5em;
     background-color: whitesmoke;
@@ -94,7 +92,8 @@ p {
 }
 
 #homepageImage {
-    width: 20%;
+    width: 22%;
+    margin-top: 1em;
 }
 
 #body {
@@ -328,6 +327,30 @@ input[type=submit]:hover, input[type=button]:hover {
     background-color: #eabb11;
     background-repeat: repeat-x;
 	border: 0px;
+}
+
+
+/* Plagiarism Checker and Recommended Tools */
+.tools-logo-and-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.tools-logo {
+    width: 15%;
+    margin-right: .5em;
+}
+
+.tools-link {
+    width: 85%;
+}
+
+.tools-logo-img {width: 2em;}
+
+#unicheck-link {
+    color: #2c8ef2;
 }
 
 
