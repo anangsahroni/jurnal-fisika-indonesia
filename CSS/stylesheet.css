@@ -1,0 +1,508 @@
+/* All Elements*/
+html {
+    font-size: 16px;
+		font-family: 'Asap',sans-serif!important;
+}
+body {font-family: 'Asap',sans-serif!important;}
+
+#content {font-size: 1rem !important;}
+
+/* Navigation Bar*/
+#navbar {
+    margin: 0 0 12px 0;
+    padding: 0;
+    background-color: #076f9f;
+    background-image: none;
+    clear: both;
+    text-align: left;
+    border: 0;
+    height: 40px;
+    width: 1080px;
+    transition-duration: 0.4s;
+    font-size: 15px;
+}
+
+#navbar a, #navbar a:link, #navbar a:visited {
+    font-family: 'Asap',sans-serif;
+    font-size: 15px !important;
+    transition-duration: 0.4s;
+}
+
+#navbar a:hover {
+    background: #076f9f;
+    color: #eabb11;
+}
+
+#header {
+    background-color: #076f9f;
+    background-image: none;
+}
+#container {
+    width: 100% !important;
+    min-width: 280px !important;
+    background-color: #fcfcfc;
+    overflow: hidden;
+    background-image: none;
+}
+
+#header h1 {
+    padding: 20px !important;
+}
+
+/* Content*/
+
+/*JURNAL FISIKA INDONESIA */
+
+#breadcrumb {
+    padding: 0.5em;
+    background-color: whitesmoke;
+    border-bottom: 0px dotted #333;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#breadcrumb a{
+    transition-duration: 0.4s;
+}
+
+ul.steplist li {
+		font-size: 1em;
+}
+
+#breadcrumb a:hover{
+    text-decoration: underline;
+}
+
+
+#main h2 {
+    margin: 0em 1em 0em 0em;
+}
+
+#journalDescription1 {
+    width: 75%;
+    float: left;
+}
+
+#journalDescription {
+    width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+}
+
+p {
+    font-size: 16px;
+}
+
+#homepageImage {
+    width: 20%;
+}
+
+#body {
+    background-color: #fcfcfc;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Asap',sans-serif!important;
+}
+
+/* Image Enlarge */
+
+div#enlargeimage {
+    display: none;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    font-family: 'Asap', sans-serif';
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+a#imgcover:hover + div#enlargeimage {
+    display: block;
+}
+
+
+/* Current Issue Button */
+
+button#coverIssue {
+    margin-top: 0px !important;
+    color: white;
+    background-color: #076f9f;
+    border: 0px;
+    border-radius: 0px;
+    padding: 6px 12px;
+    margin: 0px auto;
+    display: block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+		width: 100%;
+}
+
+button#coverIssue:hover {
+    background-color: #eabb11;
+    color: black;
+    text-decoration: none;
+}
+
+button#currentIssue {
+    margin-top: 5px !important;
+    color: white;
+    background-color: #076f9f;
+    border: 0px;
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin: 0px auto;
+    display: block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+}
+
+
+button#currentIssue:hover {
+    background-color: #eabb11;
+    color: black;
+    text-decoration: none;
+}
+
+/* Announcement */
+
+#announcementsHome {
+    background-color: whitesmoke;
+    border-radius: 5px !important;
+    margin-bottom: 0px;
+}
+table.announcements tr.description {
+    vertical-align: top;
+    font-size: 16px;
+}
+
+table.announcements td.description {
+    font-size: 15px;
+    font-family: 'Asap', sans-serif;
+}
+
+/* Table of Contents */
+table.tocArticle:nth-child(even) tr {
+    background-color: #b6c9d529;
+}
+table.tocArticle:nth-child(odd) tr {
+    background-color: #ffffff;
+}
+.tocTitle {
+    font-weight: 600;
+    font-family: 'Asap', sans-serif;
+    font-size: 15px;
+}
+.tocAuthors {
+    font-family: 'Asap', sans-serif;
+}
+.tocDOI {
+    font-family: 'Asap', sans-serif;
+}
+
+a:link, a:visited, a:active {
+    color: #076f9f;
+}
+
+
+
+
+/* ------------Sidebar---------------*/
+
+
+rightSidebar div.block, #leftSidebar div.block {
+    font-family: 'Asap', sans-serif;
+    font-size: 1rem;
+}
+/*
+#rightSidebar {
+ padding-left: 16px;
+}
+*/
+
+/* Sidemenu */
+ul.sidemenu li:first-child a {
+    border-top: 0px solid #315c80;
+}
+
+ul.sidemenu li {
+    margin: 12px 12px -6px 12px;
+    /* padding: .5em; */
+    border-radius: 5px;
+}
+
+ul.sidemenu li a {
+    display: block;
+    padding: .5em;
+    border-bottom: 0px solid #315c80;
+    background-color: #f5f5f5;
+    text-decoration: none;
+    color: #076f9f;
+    border: 0px;
+    border-color: #076f9f;
+    border-radius: 5px;
+    font-family: 'Asap',sans-serif;
+    font-size: 16px !important;
+    transition-duration: 0.4s;
+}
+ul.sidemenu li a:hover {
+    background-color: #eabb11;
+    text-decoration: none;
+    color: black;
+}
+
+/* Sidebar Block Title */
+#leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle {
+    background: #076f9f;
+    border-radius: 5px;
+    color: white !important;
+}
+#sidebar div.block span.blockTitle {
+    font-family: 'Asap', sans-serif;
+}
+
+#sidebar div.block {
+		font-size: 1rem;
+}
+
+.block li:before {
+    content: "";
+    border-color: transparent #076e9e;
+    border-style: solid;
+    border-width: .35em 0 .35em .45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: .9em;
+    position: relative;
+}
+
+/* Recommended Tools */
+.indexers {
+    padding-left: 5px;
+		display: flex;
+		flex-direction: row-reverse;
+		flex-wrap: wrap;
+		justify-content: start;
+}
+
+
+.indexers a:hover {
+    border: none;
+    text-decoration: underline;
+}
+a#mendeleyr {
+    color: #A41823;
+}
+a#grammarlyr {
+    color: #34BA97;
+}
+a#endnoter {
+    color: #E1215C;
+}
+a#overleafer {
+    color: #44A548;
+}
+
+/* Journal Content */
+input.textField, select.selectMenu, textarea.textArea, input.uploadField {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+input[type=submit], input[type=button] {
+    background-image: none;
+    background-color: #076f9f;
+		border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    text-shadow: none;    
+    padding: 6px 8px;
+	transition-duration: 0.4s;
+}
+input[type=submit]:hover, input[type=button]:hover {
+    color: black;
+    background-image: none;
+    background-color: #eabb11;
+    background-repeat: repeat-x;
+	border: 0px;
+}
+
+
+/* --------------FOOTER---------------- */
+#mainfooter {
+    display: flex;
+    font-family: 'Asap', sans-serif;
+    border-top: 1px solid #ccc;
+		flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+#addressfooter {
+    padding: 10px;
+    display: inline-block;
+    width:30%
+}
+
+#indexfooter {
+    padding: 10px;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+#licensefooter {
+    display: inline-block;
+    width: 30%;
+		padding-top: 10px;
+    font-size: 16px;
+}
+
+.indexer-logo {
+    width: 50%;
+		display: flex;
+		align-items: center;
+}
+
+.socmed-icon-div {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+}
+.socmed-icon-con {
+		width: 12%;
+		margin-right: 7px;
+		cursor: pointer;
+
+}
+.socmed-icon {
+		width: 100%;
+
+}
+
+
+/* Media Queries */
+
+@media (max-width: 480px) {
+		#body {width: 100% !important; display: block;}
+		#main {width: 100% !important; display: block;}
+		.nav-toggle {width: 100%; font-size: 16px;}
+		#breadcrumb {width: 90% !important; margin:auto; margin-top: 10px;}
+		#content {width: 90% !important; margin:auto;}    
+}
+
+@media (max-width: 480px) {
+    #mainfooter {
+        flex-direction: column;
+				align-items: center;
+   }
+		#addressfooter {
+			width: 100%;
+			padding: 0px;
+	}
+
+	.addressDescript {
+			margin: auto;
+	}
+
+	#indexfooter {
+			width: 75%;
+			padding: 0px;
+	}
+
+	#licensefooter {
+			width: 100%;
+			text-align: center;
+	}
+
+	.socmed-icon-div {
+			justify-content: center;
+			margin-top: 12px;
+			margin-bottom: 7px;	
+	}
+
+	.socmed-icon-con {
+			width: 10%;
+	}
+
+	.freepik-sm {display: block;}
+  .freepik-lg {display: none;}
+}
+
+
+@media (min-width: 480px) {
+	.freepik-sm {display: none;}
+	.freepik-lg {display: block;}
+
+}
+
+@media (max-width: 480px) {
+		#navbar {
+			height: auto;
+	}
+	
+	.nav-toggle {
+    background-color: #07618a;}
+	.nav-toggle:hover {
+    background-color: #07618a;
+	}
+
+  	#journalDescription {
+				flex-direction: column;
+	}
+  	#journalDescription1 {
+				width: 100%;
+	}
+	#homepageImage {
+		  display: contents;
+			margin-top: 5px;
+	}
+	#homepageImage img {
+			width: 50%;
+	}
+
+	button#coverIssue {
+			width: 50%;
+	}
+
+		.indexers {
+				justify-content: space-around;
+	}
+
+	.jfi-address {text-align: center;}
+
+	.nav-collapse ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    list-style: none;
+	}
+    
+    #navbar ul {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    margin-bottom: 1em;
+    }
+    
+	.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+	
+	#navbar ul li {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+    float: none;
+    max-width: 160px;
+    display: inline-block;
+	}
+}
+
+
