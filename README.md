@@ -1,2 +1,3 @@
-# jurnal-fisika-indonesia
-a repository to mantain some contents and styling for Jurnal Fisika Indonesia (JFI)
+# Jurnal Fisika Indonesia
+This is a repository to mantain some additional contents and styling for Jurnal Fisika Indonesia (JFI).
+![jfi-screenshot](./Object/jfi-screenshot)
