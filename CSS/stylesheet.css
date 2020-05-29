@@ -475,6 +475,9 @@ input[type=submit]:hover, input[type=button]:hover {
 }
 
 @media (max-width: 480px) {
+	#main h2 {
+        margin-left: 10px;
+    }	
 		#navbar {
 			height: auto;
 	}
