@@ -402,6 +402,10 @@ input[type=submit]:hover, input[type=button]:hover {
 		align-items: center;
 }
 
+.indexer-logo-full {
+    width: 100%;
+}
+
 .socmed-icon-div {
 		display: flex;
 		flex-direction: row;
