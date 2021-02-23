@@ -135,7 +135,8 @@ button#coverIssue {
     display: block;
     font-size: 15px;
     transition-duration: 0.4s;
-		width: 100%;
+	cursor: pointer;
+	width: 100%;
 }
 
 button#coverIssue:hover {
@@ -155,6 +156,7 @@ button#currentIssue {
     display: block;
     font-size: 15px;
     transition-duration: 0.4s;
+	cursor: pointer;
 }
 
 
